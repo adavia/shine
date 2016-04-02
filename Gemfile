@@ -44,5 +44,11 @@ end
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
+  # User rspec for testing
+  gem 'rspec-rails', '~> 3.0'
+  # Front end testing
+  gem 'poltergeist'
+  # Retore database
+  gem 'database_cleaner'
 end
 
