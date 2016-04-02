@@ -46,8 +46,10 @@ group :development do
   gem 'web-console', '~> 2.0'
   # User rspec for testing
   gem 'rspec-rails', '~> 3.0'
-  # Front end testing
+  # Frontend testing
   gem 'poltergeist'
+  # User jasmine
+  gem 'teaspoon-jasmine'
   # Retore database
   gem 'database_cleaner'
 end

@@ -1,5 +1,3 @@
-var app = angular.module('customers',[]);
-
 app.controller("CustomerSearchController", [
   "$scope", "$http",
   function($scope,  $http) {
